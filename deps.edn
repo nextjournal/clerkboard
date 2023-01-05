@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {io.github.nextjournal/clerk {:local/root "../clerk"}
+        org.clojure/clojure {:mvn/version "1.11.1"}
+
+        ;; silence log warnings
+        org.slf4j/slf4j-nop {:mvn/version "1.7.36"}}
+
+ :aliases {:dev {:extra-paths ["dev"]}}}
